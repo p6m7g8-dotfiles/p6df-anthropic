@@ -112,5 +112,5 @@ p6df::modules::anthropic::env::init() {
 ######################################################################
 p6df::modules::anthropic::profile::mod() {
 
-  p6_return_words 'anthropic' '$ANTHROPIC_API_KEY'
+  p6_return_words 'anthropic' "$"
 }
