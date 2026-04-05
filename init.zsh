@@ -54,7 +54,11 @@ p6df::modules::anthropic::mcp::server::add() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::anthropic::env::init()
+# Function: p6df::modules::anthropic::env::init(_module, _dir)
+#
+#  Args:
+#	_module -
+#	_dir -
 #
 #>
 ######################################################################
@@ -102,10 +106,10 @@ p6df::modules::anthropic::env::init() {
 ######################################################################
 #<
 #
-# Function: words anthropic $ANTHROPIC_API_KEY = p6df::modules::anthropic::profile::mod()
+# Function: words anthropic = p6df::modules::anthropic::profile::mod()
 #
 #  Returns:
-#	words - anthropic $ANTHROPIC_API_KEY
+#	words - anthropic
 #
 #  Environment:	 ANTHROPIC_API_KEY
 #>
